@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ff007f, #7f00ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: normal;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+ .wrapper .input-box input{
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.submit-btn {
+  background-color: #3164f4;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #1f49c4;
+}

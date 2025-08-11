@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h2>Registration Form</h2>
+    <form>
+      <div class="form-row">
+        <div class="input-box">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" placeholder="first Name" />
+        </div>
+        <div class="input-box">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" placeholder="Last Name" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-box">
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" />
+        </div>
+        <div class="input-box">
+          <label>Gender</label>
+          <div class="gender-group">
+            <label><input type="radio" name="gender" checked /> Male</label>
+            <label><input type="radio" name="gender" /> Female</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone Number" />
+        </div>
+      </div>
+
+      <div class="input-box" style="margin-bottom: 20px;">
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option>Choose option</option>
+          <option>Math</option>
+          <option>Science</option>
+          <option>English</option>
+        </select>
+      </div>
+
+      <button class="submit-btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
